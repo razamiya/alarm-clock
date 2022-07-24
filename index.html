@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Alarm Clock</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./assets/./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/./css/style.css">
+
+    
+</head>
+<body>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-1 "></div>
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Set Your Alarm</h1>
+                    </div>
+                    <div class="card-body">
+                        <form id="alarm-form" action="">
+                            <div class="form-container my-3 d-flex justify-content-between gap-2">
+                                <input class="form-control" type="date" name="date" id="">
+                                <input class="form-control" type="time" name="time" id="">
+                                <input class="btn btn-primary w-50" type="submit" name="" id="">
+                                
+                            </div>
+                        </form>
+                        <button id="stop_alarm" class="btn btn-danger">StopAlarm</button>
+                    </div>
+                    <div class="card-footer">
+                        <div class="alarm-time text-center">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <audio id="alarm" src="media/Watch Alarm.mp3"></audio>
+    
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
